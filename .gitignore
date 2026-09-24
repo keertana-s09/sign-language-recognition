@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Raw images are 1.7 GB and downloadable from Kaggle / ASL-HG.
+# The processed .npz files (37 MB of 63-float landmark vectors) ARE committed
+# because they take 30+ minutes to regenerate and are small.
+data/raw/
+
+# The .task bundle is 7.5 MB and downloaded from MediaPipe's release page.
+models/hand_landmarker.task
+
+# Scratch / editor
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,20 @@
+10800 samples, 36 classes, 10 signers [quick]
+
+      raw ( 63f)  P1:0.721  P10:0.751  P2:0.967  P3:0.745  P4:0.894  P5:0.862  P6:0.838  P7:0.847  P8:0.835  P9:0.801
+      rot ( 63f)  P1:0.813  P10:0.880  P2:0.930  P3:0.841  P4:0.877  P5:0.885  P6:0.895  P7:0.839  P8:0.802  P9:0.776
+     dist (210f)  P1:0.865  P10:0.887  P2:0.918  P3:0.832  P4:0.899  P5:0.972  P6:0.854  P7:0.885  P8:0.845  P9:0.863
+ rot+dist (273f)  P1:0.854  P10:0.870  P2:0.911  P3:0.839  P4:0.886  P5:0.890  P6:0.888  P7:0.882  P8:0.824  P9:0.841
+ raw+dist (273f)  P1:0.923  P10:0.876  P2:0.937  P3:0.845  P4:0.913  P5:0.915  P6:0.909  P7:0.868  P8:0.803  P9:0.894
+
+==============================================================
+      mode  feats     mean     std    worst   mins
+       raw     63   82.6%   7.1%   72.1%    1.0
+       rot     63   85.4%   4.5%   77.6%    1.1  (+2.8%)
+      dist    210   88.2%   3.9%   83.2%    1.1  (+5.6%)
+  rot+dist    273   86.8%   2.6%   82.4%    0.9  (+4.2%)
+  raw+dist    273   88.8%   3.9%   80.3%    0.9  (+6.2%)
+
+best: raw+dist at 88.8% mean across signers
+The worst-signer column matters as much as the mean - it is the person your demo fails in front of.
+
+[exited with code 0]

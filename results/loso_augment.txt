@@ -1,0 +1,10 @@
+35982 samples, 36 classes, 10 signers
+
+ raw+dist (273f)  P1:0.868  P10:0.950  P2:0.988  P3:0.888  P4:0.936  P5:0.929  P6:0.962  P7:0.849  P8:0.835  P9:0.935
+
+==============================================================
+      mode  feats     mean     std    worst   mins
+  raw+dist    273   91.4%   4.8%   83.5%   15.6
+
+best: raw+dist at 91.4% mean across signers
+The worst-signer column matters as much as the mean - it is the person your demo fails in front of.

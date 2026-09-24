@@ -1,0 +1,14 @@
+{
+  "best_params": {
+    "learning_rate_init": 0.001,
+    "hidden_layer_sizes": [
+      256
+    ],
+    "batch_size": 512,
+    "alpha": 0.1
+  },
+  "best_score": 0.8981660475436527,
+  "features": "raw+dist",
+  "subsampled": true,
+  "spread": 0.025125860204669448
+}

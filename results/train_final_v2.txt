@@ -1,0 +1,182 @@
+  data/processed/asl_hg.npz: 35982 samples
+  data/processed/own_asl.npz: 5600 samples
+41582 samples, 63 features, 38 classes
+Augmented training set x3 -> 99795 rows
+Features: raw+dist -> 273 dimensions
+
+Training mlp...
+Iteration 1, loss = 0.19689278
+Validation score: 0.989980
+Iteration 2, loss = 0.02286579
+Validation score: 0.994389
+Iteration 3, loss = 0.01294841
+Validation score: 0.997695
+Iteration 4, loss = 0.00990233
+Validation score: 0.998397
+Iteration 5, loss = 0.00986271
+Validation score: 0.996894
+Iteration 6, loss = 0.00840485
+Validation score: 0.996293
+Iteration 7, loss = 0.00644681
+Validation score: 0.997094
+Iteration 8, loss = 0.00670916
+Validation score: 0.997194
+Iteration 9, loss = 0.00575670
+Validation score: 0.997695
+Iteration 10, loss = 0.00768013
+Validation score: 0.997194
+Iteration 11, loss = 0.00569944
+Validation score: 0.996092
+Iteration 12, loss = 0.00412617
+Validation score: 0.999198
+Iteration 13, loss = 0.00152961
+Validation score: 0.999098
+Iteration 14, loss = 0.00167854
+Validation score: 0.997896
+Iteration 15, loss = 0.01622115
+Validation score: 0.997395
+Iteration 16, loss = 0.00257794
+Validation score: 0.998898
+Iteration 17, loss = 0.00308419
+Validation score: 0.997495
+Iteration 18, loss = 0.00207012
+Validation score: 0.999299
+Iteration 19, loss = 0.01041976
+Validation score: 0.998798
+Iteration 20, loss = 0.00474860
+Validation score: 0.999299
+Iteration 21, loss = 0.00158987
+Validation score: 0.998597
+Iteration 22, loss = 0.00120940
+Validation score: 0.995591
+Iteration 23, loss = 0.00185776
+Validation score: 0.998497
+Iteration 24, loss = 0.00150530
+Validation score: 0.998898
+Iteration 25, loss = 0.01325212
+Validation score: 0.997796
+Iteration 26, loss = 0.00334023
+Validation score: 0.998898
+Iteration 27, loss = 0.00121930
+Validation score: 0.998898
+Iteration 28, loss = 0.00118643
+Validation score: 0.998798
+Iteration 29, loss = 0.00121973
+Validation score: 0.999098
+Iteration 30, loss = 0.00078921
+Validation score: 0.999399
+Iteration 31, loss = 0.00111486
+Validation score: 0.998697
+Iteration 32, loss = 0.00993089
+Validation score: 0.992285
+Iteration 33, loss = 0.00868499
+Validation score: 0.997695
+Iteration 34, loss = 0.00270592
+Validation score: 0.996593
+Iteration 35, loss = 0.00345077
+Validation score: 0.996092
+Iteration 36, loss = 0.00736937
+Validation score: 0.996794
+Iteration 37, loss = 0.00201172
+Validation score: 0.998196
+Iteration 38, loss = 0.00283796
+Validation score: 0.998096
+Iteration 39, loss = 0.00114287
+Validation score: 0.998998
+Iteration 40, loss = 0.00160592
+Validation score: 0.998898
+Iteration 41, loss = 0.00129174
+Validation score: 0.998798
+Iteration 42, loss = 0.00091324
+Validation score: 0.999499
+Iteration 43, loss = 0.00049491
+Validation score: 0.999499
+Iteration 44, loss = 0.00073048
+Validation score: 0.999299
+Iteration 45, loss = 0.00268282
+Validation score: 0.993387
+Iteration 46, loss = 0.01470081
+Validation score: 0.998297
+Iteration 47, loss = 0.00217411
+Validation score: 0.998697
+Iteration 48, loss = 0.00106549
+Validation score: 0.998898
+Iteration 49, loss = 0.00116757
+Validation score: 0.999499
+Iteration 50, loss = 0.00161316
+Validation score: 0.998397
+Iteration 51, loss = 0.00532445
+Validation score: 0.993788
+Iteration 52, loss = 0.00503684
+Validation score: 0.998798
+Iteration 53, loss = 0.00362019
+Validation score: 0.998998
+Iteration 54, loss = 0.00226655
+Validation score: 0.999198
+Iteration 55, loss = 0.00272734
+Validation score: 0.998898
+Iteration 56, loss = 0.00451619
+Validation score: 0.998096
+Iteration 57, loss = 0.00207797
+Validation score: 0.998898
+Iteration 58, loss = 0.00086711
+Validation score: 0.999299
+Validation score did not improve more than tol=0.000100 for 15 consecutive epochs. Stopping.
+
+Test accuracy: 0.9994
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.995     0.997       200
+           1      1.000     1.000     1.000       200
+           2      1.000     1.000     1.000       200
+           3      1.000     1.000     1.000       200
+           4      1.000     1.000     1.000       200
+           5      1.000     1.000     1.000       200
+           6      1.000     1.000     1.000       200
+           7      1.000     1.000     1.000       200
+           8      1.000     1.000     1.000       200
+           9      1.000     1.000     1.000       200
+           A      1.000     0.992     0.996       240
+           B      0.996     1.000     0.998       240
+           C      1.000     1.000     1.000       240
+           D      1.000     0.996     0.998       240
+           E      1.000     0.996     0.998       240
+           F      1.000     1.000     1.000       240
+           G      1.000     1.000     1.000       240
+           H      1.000     1.000     1.000       237
+           I      0.996     1.000     0.998       240
+           J      1.000     1.000     1.000       240
+           K      1.000     1.000     1.000       240
+           L      1.000     1.000     1.000       240
+           M      1.000     1.000     1.000       240
+           N      0.996     1.000     0.998       240
+           O      0.996     1.000     0.998       240
+           P      1.000     1.000     1.000       240
+           Q      1.000     1.000     1.000       240
+           R      1.000     1.000     1.000       240
+           S      0.996     1.000     0.998       240
+           T      1.000     1.000     1.000       240
+           U      1.000     1.000     1.000       240
+           V      1.000     1.000     1.000       240
+           W      1.000     1.000     1.000       240
+           X      1.000     1.000     1.000       240
+           Y      1.000     1.000     1.000       240
+           Z      1.000     1.000     1.000       240
+         del      1.000     1.000     1.000        40
+       space      1.000     1.000     1.000        40
+
+    accuracy                          0.999      8317
+   macro avg      0.999     0.999     0.999      8317
+weighted avg      0.999     0.999     0.999      8317
+
+
+Top confusions (M/N/S and A/E/T are the usual offenders):
+      true -> predicted   count    rate
+         E -> B               1   0.4%
+         D -> I               1   0.4%
+         A -> S               1   0.4%
+         A -> N               1   0.4%
+         0 -> O               1   0.5%
+
+Saved -> models/final_v2.joblib (1282 KB)

@@ -1,0 +1,22 @@
+10800 samples, 273 features, 36 classes, 10 signers, 5-fold GroupKFold
+sampling 24 configurations
+
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+
+rank   cross-signer acc     std  config
+   1             89.8%   1.4%  {'learning_rate_init': 0.001, 'hidden_layer_sizes': (256,), 'batch_size': 512, 'alpha': 0.1}
+   2             89.8%   1.4%  {'learning_rate_init': 0.0003, 'hidden_layer_sizes': (256,), 'batch_size': 256, 'alpha': 1e-05}
+   3             89.8%   1.0%  {'learning_rate_init': 0.001, 'hidden_layer_sizes': (256,), 'batch_size': 128, 'alpha': 0.1}
+   4             89.7%   1.7%  {'learning_rate_init': 0.003, 'hidden_layer_sizes': (256,), 'batch_size': 256, 'alpha': 0.1}
+   5             89.4%   1.5%  {'learning_rate_init': 0.001, 'hidden_layer_sizes': (256,), 'batch_size': 512, 'alpha': 0.0001}
+   6             89.3%   1.9%  {'learning_rate_init': 0.0003, 'hidden_layer_sizes': (128,), 'batch_size': 256, 'alpha': 0.0001}
+   7             89.3%   1.9%  {'learning_rate_init': 0.0003, 'hidden_layer_sizes': (128,), 'batch_size': 256, 'alpha': 1e-05}
+   8             89.0%   1.7%  {'learning_rate_init': 0.0003, 'hidden_layer_sizes': (128,), 'batch_size': 128, 'alpha': 0.0001}
+   9             88.9%   0.5%  {'learning_rate_init': 0.0003, 'hidden_layer_sizes': (384, 192, 96), 'batch_size': 256, 'alpha': 0.1}
+  10             88.8%   2.2%  {'learning_rate_init': 0.0003, 'hidden_layer_sizes': (128,), 'batch_size': 512, 'alpha': 0.01}
+
+best cross-signer accuracy: 89.8%
+best config: {'learning_rate_init': 0.001, 'hidden_layer_sizes': (256,), 'batch_size': 512, 'alpha': 0.1}
+search took 1.0 min
+spread across 24 configs: 2.5%
+saved -> results/tuning.json
